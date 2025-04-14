@@ -1,0 +1,18 @@
+{
+  "name": "dynamic-controller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "helmi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "express-validator": "7.2.1",
+    "mongoose": "8.9.5"
+  }
+}
