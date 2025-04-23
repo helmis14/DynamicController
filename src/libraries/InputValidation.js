@@ -9,7 +9,7 @@ class InputValidation {
           const results = validationResult(req);
 
           if (!results.isEmpty()) {
-            throw new Error(results.array());
+            throw { message: results.array() };
           }
 
           next();
@@ -25,4 +25,4 @@ class InputValidation {
   };
 }
 
-export default new InputValidation
+export default new InputValidation();
